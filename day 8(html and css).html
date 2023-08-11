@@ -1,0 +1,119 @@
+inline css>id>class>tag
+
+inline>Internal
+
+Tag selector:
+syntax: tagname
+
+units:px
+%,pc,pt,em,rem
+
+box model:
+box model is a box, that is wrapped around the html element
+4 important properties:
+margin
+border
+padding
+content
+
+margin:it is a imaginary space around an HTML element
+using px
+short hand notation:
+
+padding:it is an imaginary space around a content
+
+table tag:
+colspan:folding the columns vertically
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>year</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>john</td>
+        <td>23</td>
+        <td>2019</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>State of health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Remaining</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Minimum</th>
+            <th>Normal</th>
+            <th>2 hours of Eating</th>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>more than 126</td>
+            <td>Not Applicable</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -74,12 +74,12 @@ for(var i=0;i<studentname.attendance.length;i++){
 studentname.age=24;
 console.log(studentname);
 //deletion
-//Syntax:delete objectname.keyname
+//Syntax:delete objectName.keyname
 delete studentname.gender;
 console.log(studentname);
 
-//Create a Object of Employee which consist of followinf information
-//name,age,salary,accountnumber
+//Create a Object of Employee which consist of following information
+//name,age,salary,account number
 //1.update the name of the employee by "tom"
 //2.delete the salary of the employee
 //print both the key name as well as the value stored after the deletion

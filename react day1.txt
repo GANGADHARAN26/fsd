@@ -1,0 +1,125 @@
+React Overview:
+
+  HTML, CSS(Bootstrap), JS (DOM)
+
+  HTML - Skeleton/Structure
+
+  CSS - Skin/Style/Makeup
+
+  JS - Brain, Event/Behavior/Interaction controller
+
+
+  Node Application:
+
+    npm project ( a simple code setup which allows installation of external packages )
+
+    Creation of npm project:
+      1. create needed folder
+      1. change directory to created folder & npm init
+
+    npm - Node Package Manager
+      npm install <package-name>
+
+      **can be done only in the folder where package.json is there** 
+
+      import the package and use it with require( old syntax )/import
+
+  package.json --> information about npm project
+
+  package-lock.json --> file which keeps tracking of the package installed and their dependencies
+
+  node_modules --> js file & function used by the project ( should not be pushed to github )
+
+    Eg: lodash --> utility functions for js
+    
+
+
+    npx - Node Package Executable
+      CRA - Create-React-App Executable framework which sets up the react development setup
+    
+    Creating React Application:
+      npx create-react-app <application-name>
+        Sets up the enitre project along with proper folder structure
+
+      starting react applciation:
+        npm start
+
+      import & export   
+        simple, default
+
+      JSX: JS which has html in it
+        javascript xtensible
+
+        Recap:
+        ES5 vs Es6
+      
+          Scoping - var vs let vs const
+          arrow functions
+          template literals
+          spread & rest prarameter
+          array & object destructure
+          property shorthand
+          Class in Javascript --> Template/Blueprint for an userdefined object
+      
+      Till now, we have seen the setup for React.
+      
+      Why React:
+        Multi Page Application:
+          Multiple HTML Pages which downloads the same resources again
+          https://retail.onlinesbi.sbi/personal/
+      
+          Disadvantage:
+            loading all resources ( images, css, js, fonts )
+        
+        Single Page Application( React JS ):
+          Single HTML File served and DOM Manipulation with JS
+      
+      
+      React:
+        Structure of React & Folder Structure
+      
+        how to code inside React-JS
+      
+        webpack is bundler used to combine all the node_modules used and assets( image, css )
+      
+        babeljs conversion of jsx to normal js as well conversion browser understandable js
+          js with html called as jsx ( Javascript xtensible )
+      
+        How Single Page App Can Work:
+          VDOM -> Virtual DOM
+      
+          We should only rely on Virtual DOM Manipulation
+      
+          ****** We should not use document object ******
+            document.getElementById, document.createElement ...etc all are not allowed in react
+      
+        using,
+      
+          module import & export
+        
+          js, html
+            className instead of class ( class is a keyword in js )
+            htmlFor instead of for (for is keyword in JS)
+      
+            {} is used to use variable or expression inside jsx
+      
+          css
+      
+      Github Link for React App Codes:
+      
+      https://github.com/sanjaysaravanan/b4445we-react
+      
+      Local Run:
+        1. clone the repo
+        2. **npm instal** in root dir
+        3. **npm start** in root dir
+      
+      Task:
+      Sample Link -> https://startbootstrap.com/snippets/pricing-table 
+      
+      Blue Color layout with Inner Cards Only
+      
+      You can use bootstrap css
+        
+        
+      
